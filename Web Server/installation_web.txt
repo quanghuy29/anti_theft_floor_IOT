@@ -1,0 +1,14 @@
+Requirements: Python, Flask, sqlite3
+Packages and Library (use pip install):
+- flask, flask-SQLAlchemy, flask-WTF, flask-user, flask-mail, flask-login
+- bcrypt
+- opencv-python (cv2)
+- jsonpickle
+- requests
+- numpy
+- functools
+- wtforms
+- passlib
+APIS:
+- http://192.168.1.47:5000/api/ping (POST): ping server
+- http://192.168.1.47:5000/api/test (POST): upload picture
