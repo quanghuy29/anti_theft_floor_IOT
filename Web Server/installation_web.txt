@@ -9,6 +9,12 @@ Packages and Library (use pip install):
 - functools
 - wtforms
 - passlib
+- for mqtt (must install all correct version):
+  pip install --upgrade python-socketio==4.6.0
+
+  pip install --upgrade python-engineio==3.13.2
+
+  pip install --upgrade Flask-SocketIO==4.3.1
 APIS:
 - http://192.168.1.47:5000/api/ping (POST): ping server
 - http://192.168.1.47:5000/api/test (POST): upload picture
